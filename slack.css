@@ -66,7 +66,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__link--selected:hover { color: #E57254; }
 
-.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover { background: #46BCDE !important; }
+.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover { background: #46BCDE !important; color: #52D271 !important;}
 
 .p-channel_sidebar__header { color: #E5C454 !important; }
 
