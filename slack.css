@@ -4198,11 +4198,14 @@ code { background-color: #656665; color: #E5C454; font-size: 12px;}
 .c-channel_name__text { color: #E5C454; }
 .channel_header_icon > .call_icon { color: #46BCDE; }
 .channel_header_icon > .ts_icon_cog_o { color: #52D271; }
-#channel_title, #im_title, .dm_title { color: #52D271; }
+#im_title, .dm_title { color: #52D271; }
 .c-presence.c-presence--active.c-icon--presence-online + .p-channel_sidebar__name { color: #52D271 !important; } // online user name text color
 .c-presence--active.p-channel_sidebar__name { color: #52D271 !important; }
 .ts_icon_info_circle { color: #E5C454; }
 .p-flexpane_header__children { color: #E5C454;}
 .c-virtual_list__scroll_container > a:hover { color: #46BCDE !important; }
+.c-icon.c-icon--times { color: #E94F64 } // close thread X button 
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__section_heading_label--unreads, .p-channel_sidebar__quickswitcher:hover { color: #E5C454 !important; } // unread channels
+     
 
 
