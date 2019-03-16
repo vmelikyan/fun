@@ -1,4 +1,4 @@
-// ************** START custom stuff
+/************** START custom stuff */
 
 .p-channel_sidebar { background-color: #333333 !important; color: #656665; } 
 #team_menu:before, #team_menu .notifications_menu_btn, #team_menu .team_name_caret, #team_menu_user_name { color: #52D271; }
@@ -17,16 +17,21 @@
 .channel_header_icon > .call_icon { color: #46BCDE; }
 .channel_header_icon > .ts_icon_cog_o { color: #52D271; }
 #im_title, .dm_title { color: #52D271; }
-.c-presence.c-presence--active.c-icon--presence-online + .p-channel_sidebar__name { color: #52D271 !important; } // online user name text color
+.c-presence.c-presence--active.c-icon--presence-online + .p-channel_sidebar__name { color: #52D271 !important; } /* online user name text color */
 .c-presence--active.p-channel_sidebar__name { color: #52D271 !important; }
 .ts_icon_info_circle { color: #E5C454; }
 .p-flexpane_header__children { color: #E5C454;}
 .c-virtual_list__scroll_container > a:hover { color: #46BCDE !important; }
 .c-icon.c-icon--times { color: #E94F64 } // close thread X button 
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__section_heading_label--unreads, .p-channel_sidebar__quickswitcher:hover { color: #E5C454 !important; } // unread channels
-    
+[data-qa="start_thread"]:hover { color: #E5C454; }
+[data-qa="add_reaction_action"]:hover { color: #52D271; }
+[data-qa="share_message"]:hover { color: #E94F64 !important; } 
+[data-qa="star_message"]:hover { color: #46BCDE !important; }
+[data-qa="more_message_actions"]:hover { color: #E57254 !important; }
+.c-tooltip__tip__arrow, .c-tooltip__tip.c-tooltip__tip--top { background-color: #333333; color: #FFFFFF;}
 
-// ************** END custom stuff
+/************* END custom stuff */
 
 body { background: #222; color: #e6e6e6; }
 
