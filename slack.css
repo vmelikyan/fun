@@ -23,12 +23,12 @@
 .p-flexpane_header__children { color: #E5C454;}
 .c-virtual_list__scroll_container > a:hover { color: #46BCDE !important; }
 .c-icon.c-icon--times { color: #E94F64 } // close thread X button 
-.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__section_heading_label--unreads, .p-channel_sidebar__quickswitcher:hover { color: #E5C454 !important; } // unread channels
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__section_heading_label--unreads, .p-channel_sidebar__quickswitcher:hover { color: #E5C454 !important; } /* unread channels */
 [data-qa="start_thread"]:hover { color: #E5C454; }
 [data-qa="add_reaction_action"]:hover { color: #52D271; }
-[data-qa="share_message"]:hover { color: #E94F64 !important; } 
-[data-qa="star_message"]:hover { color: #46BCDE !important; }
-[data-qa="more_message_actions"]:hover { color: #E57254 !important; }
+[data-qa="share_message"]:hover { color: #E94F64; } 
+[data-qa="star_message"]:hover { color: #46BCDE; }
+[data-qa="more_message_actions"]:hover { color: #E57254; }
 .c-tooltip__tip__arrow, .c-tooltip__tip.c-tooltip__tip--top { background-color: #333333; color: #FFFFFF;}
 
 /************* END custom stuff */
